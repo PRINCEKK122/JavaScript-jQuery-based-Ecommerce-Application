@@ -1,0 +1,262 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #b1b1b1;
+    font-weight: 300;
+    box-sizing: border-box;
+
+}
+
+.heading-v1 {
+    font-weight: 700;
+    color: rgba(151, 10, 130, 1);
+    font-size: 1.8rem;
+}
+
+.heading-v2 {
+    font-weight: 700;
+    color: rgba(151, 10, 130, 1);
+    font-size: 1.5rem;
+}
+
+.heading-v3 {
+    font-weight: 700;
+    color: rgba(151, 10, 130, 1);
+    font-size: 1.1rem;
+}
+
+h1.heading-v1 {
+    margin: 0 95px 0;
+}
+
+.cart_pill-cont {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    padding: 2px;
+    text-align: center;
+    border: 2px solid rgba(151, 10, 130, 1);
+    overflow: hidden;
+    position: absolute;
+    top: 17px;
+    left: 220px;
+    color: #fff;
+}
+
+.cart_pill {
+    background-color: rgb(33, 124, 177);
+    border-radius: 50%;
+    height: 22px;
+    min-width: 22px;
+    line-height: 23px;
+    display: inline-block;
+}
+
+.cart__content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table_col {
+    padding-top: 1.2rem;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead th {
+    text-align: left;
+    font-size: .8em;
+    color: rgb(33, 124, 177);
+}
+
+table tbody tr {
+    border-bottom: 1px solid #b1b1b142;
+
+}
+
+table tbody tr td:nth-child(2) {
+    padding-top: 0px;
+    display: inline-block;
+}
+
+table tbody tr td:nth-child(3) {
+    padding-top: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(43, 43, 43);
+    vertical-align: baseline;
+}
+
+.table__item-content {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: self-start;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.table__item-content:nth-child(2) {
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.table__item-content .img-cont {
+    width: 51px;
+    height: 95px;
+    margin-right: 20px;
+}
+
+.table__item-content .img-cont img {
+    width: 100%;
+}
+
+.dropdown-cont {
+    margin-right: 15px;
+}
+
+.list-h.bag_styles,
+.cart_actions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+    margin-top: .25em;
+    display: flex;
+}
+
+.unit_amount {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+}
+
+.unit_label {
+    font-size: .8rem;
+}
+
+.productsummary_style,
+.productsummary_style_color,
+.productsummary_style_size,
+.productsummary_action {
+    font-size: .8125em;
+    line-height: 1.25;
+    color: rgb(31, 31, 31);
+}
+
+.productsummary_action {
+    font-size: inherit;
+    margin-right: 10px;
+}
+
+.productsummary_action a {
+    text-decoration: none;
+}
+
+.productsummary_style:after {
+    content: "\20";
+    background: #dedede;
+    margin: 0 .5em;
+    display: inline-block;
+    height: .8em;
+    vertical-align: middle;
+    width: 1px;
+    position: relative;
+    bottom: 1px;
+
+
+}
+
+.productsummary_style:after:last-child {
+    content: "\20";
+    background: #dedede;
+    margin: 0 .5em;
+    display: inline-block;
+    height: .8em;
+    vertical-align: middle;
+    width: 1px;
+    position: relative;
+    bottom: 1px;
+}
+
+select {
+    padding-top: .375em;
+    padding-bottom: .3125em;
+    height: 2em;
+}
+
+.cols {
+    flex-grow: 2;
+}
+
+.checkout__box {
+    /* padding: 30px; */
+    font-size: .9rem;
+    box-shadow: 1px 2px 4px #b1b1b1;
+    min-height: 430px;
+
+}
+
+.checkout__box .header {
+    background-color: rgba(151, 10, 130, 1);
+    padding: 1px 0 1rem 2rem;
+    color: #fff;
+}
+
+.checkout__box .header h2 {
+    margin-bottom: 5px;
+}
+
+.checkout__box .estimate-cont {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.checkout__box form .code_container {
+    width: 60%;
+    margin-left: 2rem;
+    height: 30px;
+}
+
+.checkout__box form .code_container input {
+    height: 100%;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0;
+}
+
+.checkout__box form .code_container button {
+    height: 34px;
+    border: none;
+    padding: 5px;
+    width: 24%;
+    margin: 0;
+    background-color: rgb(33, 124, 177);
+    color: #fff;
+}
+
+.checkout__box .btn{
+    width: 85%;
+    height: 40px;
+    border: 1px solid #b1b1b1;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.checkout__box .btn button{
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    background-color:  rgba(151, 10, 130, 1);
+    
+}

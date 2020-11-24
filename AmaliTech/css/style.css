@@ -1,0 +1,74 @@
+body {
+  font-family: 'Lato';
+}
+
+.all-images img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  color: light;
+}
+
+img.selected-image {
+  border: 2px solid #1d293f;
+}
+
+.showcase {
+  background: url('https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')
+    no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.color {
+  display: flex;
+}
+
+.color .color-types {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0 0 0 7px;
+}
+
+.color .color-types li {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+li {
+  cursor: pointer;
+}
+
+.color .color-types li.active,
+.sizes li.active {
+  border: 2px solid #15b615;
+}
+
+.color span,
+.size span {
+  display: none;
+}
+
+span.display-error {
+  display: block;
+}
+
+/* Hide input buttons from the number input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+  text-align: center;
+}

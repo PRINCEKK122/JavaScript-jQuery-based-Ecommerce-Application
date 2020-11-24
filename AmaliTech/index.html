@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JavaScript/jQuery Ecommerce Application</title>
+  </head>
+  <body>
+    <div class="all-images">
+      <img class="selected-image" alt="view-photo-0" />
+      <img alt="view-photo-1" />
+      <img alt="view-photo-2" />
+    </div>
+
+    <div class="showcase"></div>
+
+    <form class="form-input" action="/cart.html" method="POST">
+      <div class="show-content-details">
+        <h2 class="product-name"></h2>
+        <p class="product-price"></p>
+        <div class="size">
+          <span>Sizes</span>
+          <ul class="sizes"></ul>
+          <span>Please select a size</span>
+        </div>
+        <h3>Description</h3>
+        <p class="product-description"></p>
+        <div class="color">
+          <span>Color: </span>
+          <ul class="color-types"></ul>
+          <span>Please select a color</span>
+        </div>
+        <div class="purchase">
+          <button type="button" class="decrement-button">-</button>
+          <input
+            class="quantity"
+            value="1"
+            type="number"
+            min="1"
+            max="10"
+            maxlength="2"
+            required
+          />
+          <button type="button" class="increment-button">+</button>
+        </div>
+      </div>
+
+      <button type="submit" >Add To Bag</a>
+    </form>
+
+    <script src="/js/startup.js"></script>
+    <script src="/js/domSelectors.js"></script>
+    <script src="/js/helperFunctions.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
